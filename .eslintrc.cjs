@@ -3,6 +3,14 @@ module.exports = {
     browser: true,
     es2021: true,
   },
+  
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true,
+        "parser": "flow"
+      }
+    ],
   extends: [
     'airbnb',
     'airbnb-typescript',
