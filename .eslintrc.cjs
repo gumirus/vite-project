@@ -3,8 +3,7 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  
-    "prettier/prettier": [
+  "prettier/prettier": [
       "error",
       {
         "singleQuote": true,
